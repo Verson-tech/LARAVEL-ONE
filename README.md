@@ -25,6 +25,10 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
     ![PassingParametersExample](images/PassingParametersToRoutes.png)
 
+    Create a CRUD CONTROLER example (reaource):
+
+    ![CreateCRUDControllerExample](images/Resource-CRUD.png)
+
 -   [Powerful dependency injection container](https://laravel.com/docs/container).
 -   Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
 -   Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).

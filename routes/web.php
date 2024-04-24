@@ -26,15 +26,11 @@ use App\Http\Controllers\PostsController;
 //     return "This url is " . $url;
 // }));
 
-Route::get('/post/{id}', [PostsController::class, 'index']);
+// Route::get('/post/{id}', [PostsController::class, 'index']);
+
+// Route::get('/about/{id}', [PostsController::class, 'show']);
 
 
-
-
-
-
-
-
-
-
-Route::get('/about/{id}', [PostsController::class, 'show']);
+Route::resource('posts', PostsController::class);
+//resource method will create all the routes for the controller
+//routes include index, create, store, show, edit, update, destroy

@@ -14,19 +14,6 @@ class PostsController extends Controller
         return "Post # " . $id;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-    
     /**
      * Show the form for creating a new resource.
      */
