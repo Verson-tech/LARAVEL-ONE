@@ -9,13 +9,10 @@ class PostsController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index($id)
     {
-        return "It's working!";
+        return "Post # " . $id;
     }
-
-
-
 
 
 
@@ -51,7 +48,7 @@ class PostsController extends Controller
      */
     public function show(string $id)
     {
-        //
+        return "This is the ABOUT post number " . $id;
     }
 
     /**

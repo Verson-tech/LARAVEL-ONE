@@ -26,4 +26,15 @@ use App\Http\Controllers\PostsController;
 //     return "This url is " . $url;
 // }));
 
-Route::get('/post', [PostsController::class, 'index']);
+Route::get('/post/{id}', [PostsController::class, 'index']);
+
+
+
+
+
+
+
+
+
+
+Route::get('/about/{id}', [PostsController::class, 'show']);
