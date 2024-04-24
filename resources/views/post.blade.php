@@ -7,6 +7,6 @@
     <link href="//fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <h1>Post {{$id}}</h1>
+    <h1>Post {{$id}} {{$name}} {{$password}}</h1>
 </body>
 </html>
