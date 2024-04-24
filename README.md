@@ -17,6 +17,10 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
     ![RouteParameterExample](images/RouteParameterExample.png)
 
+    Deafult route example:
+
+    ![DefaultRouteExample](images/DefaultRouteFile.png)
+
 -   [Powerful dependency injection container](https://laravel.com/docs/container).
 -   Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
 -   Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).

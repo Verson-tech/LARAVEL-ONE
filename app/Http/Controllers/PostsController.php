@@ -14,6 +14,22 @@ class PostsController extends Controller
         return "It's working!";
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     /**
      * Show the form for creating a new resource.
      */
