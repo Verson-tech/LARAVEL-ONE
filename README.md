@@ -52,6 +52,10 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     ```
     php artisan make:controller NameController --resource
     ```
+-   List all routes:
+    ```
+    php artisan route:list
+    ```
 
 ## Learning Laravel
 
