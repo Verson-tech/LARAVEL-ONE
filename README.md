@@ -52,6 +52,10 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     ```
     php artisan make:controller NameController
     ```
+-   Create a mew view:
+    ```
+    php artisan make:view name
+    ```
 -   Create a new model:
     ```
     php artisan make:model Name

@@ -19,7 +19,7 @@ class PostsController extends Controller
      */
     public function create()
     {
-        //
+        return "Create method";
     }
 
     /**
@@ -35,7 +35,7 @@ class PostsController extends Controller
      */
     public function show(string $id)
     {
-        return "This is the ABOUT post number " . $id;
+        return "This is the show method " . $id;
     }
 
     /**
@@ -60,5 +60,14 @@ class PostsController extends Controller
     public function destroy(string $id)
     {
         //
+    }
+
+    public function contact(){
+        return view('contact');
+    }
+
+    public function show_post($id){
+        return view('post')->with('id', $id);
+        // return view('post', compact('id', 'name', 'password'));
     }
 }

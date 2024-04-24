@@ -32,5 +32,8 @@ use App\Http\Controllers\PostsController;
 
 
 Route::resource('posts', PostsController::class);
-//resource method will create all the routes for the controller
-//routes include index, create, store, show, edit, update, destroy
+
+
+Route::get('/contact', [PostsController::class, 'contact']);
+
+Route::get('post/{id}', [PostsController::class, 'show_post']);
