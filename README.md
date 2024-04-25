@@ -29,6 +29,14 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
     ![CreateCRUDControllerExample](images/Resource-CRUD.png)
 
+    DB migration:
+
+    ![DBMigrationExample](images/Migrations.png)
+
+    Create new migration:
+
+    ![CreateNewMigrationExample](images/MigrationCreate.png)
+
 -   [Powerful dependency injection container](https://laravel.com/docs/container).
 -   Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
 -   Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
