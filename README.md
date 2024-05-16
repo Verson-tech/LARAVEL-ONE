@@ -25,7 +25,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
     ![PassingParametersExample](images/PassingParametersToRoutes.png)
 
-    Create a CRUD CONTROLER example (reaource):
+    Create a CRUD CONTROLER example (resource):
 
     ![CreateCRUDControllerExample](images/Resource-CRUD.png)
 
@@ -70,7 +70,7 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     ```
 -   Create a new migration:
     ```
-    php artisan make:migration create_name_table
+    php artisan make:migration create_name_table --create=name
     ```
 -   Create a controller with CRUD using resource:
     ```
