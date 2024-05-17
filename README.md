@@ -88,6 +88,14 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     ```
     php artisan make:migration add_column_to_table_name_table --table=table_name
     ```
+-   Delete all tables:
+    ```
+    php artisan migrate:reset
+    ```
+-   Refresh all tables:
+    ```
+    php artisan migrate:refresh
+    ```
 
 ## Learning Laravel
 
