@@ -41,7 +41,21 @@ use App\Http\Controllers\PostsController;
 // });
 
 //Database Raw SQL Queries
+// Route::get('/read', function(){
+//     $results=DB::select('select * from posts where id = ?', 
+//     //? is a placeholder for the value that will be passed in the array
+//     [1]); 
+//     //1 is the value that will be passed in the array
+//     foreach($results as $post){
+//         return $post->title;
+// //title is the column name in the database
+//     }
+// });
+
 Route::get('/read', function(){
-    $results=DB::select('select * from posts where id = ?', [1]); 
-    return $results;
+    $results=DB::select('select * from posts');
+    foreach($results as $post){
+        return var_dump($results);
+        //var_dump is used to display the array of objects in the database table posts 
+    }
 });
